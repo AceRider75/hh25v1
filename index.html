@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Turn-Based Strategy Game</title>
+  <!-- Link to main CSS file -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- The main game container -->
+  <div id="game-container">
+    <!-- The canvas will be inserted here by main.js -->
+  </div>
+
+  <!-- Game UI Elements: e.g., online save/load buttons -->
+  <div id="ui-container">
+    <button id="save-online">Save Online</button>
+    <button id="load-online">Load Online</button>
+  </div>
+
+  <!-- JavaScript files loading in order -->
+  <script src="js/main.js"></script>
+  <script src="js/gameLogic.js"></script>
+  <script src="js/blockchain.js"></script>
+  <script src="js/matchmaking.js"></script>
+  <script src="js/wallet-connect.js"></script>
+</body>
+</html>
