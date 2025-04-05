@@ -1,0 +1,40 @@
+/* main.css */
+
+/* Simple reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main game container styling */
+#game-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #222; /* dark background for contrast */
+  position: relative;
+}
+
+/* UI container styling */
+#ui-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* Basic button styling */
+#ui-container button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 600px) {
+  #game-container {
+    max-width: 100%;
+  }
+}
